@@ -1,0 +1,20 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "my personal website to showcase my works and experiences",
+  "main": "server.js",
+  "repository": "personal-website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tyler whitehurst (twwhitehurst@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "express": "^4.16.3",
+    "gulp": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  },
+  "devDependencies": {}
+}
