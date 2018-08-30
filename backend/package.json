@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "my personal website to showcase my works and experiences",
   "main": "server.js",
-  "repository": "personal-website",
+  "repository": "personal-website/backend",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
