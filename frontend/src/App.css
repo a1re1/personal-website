@@ -1,12 +1,13 @@
 :root{
-  --primary-color: #002b80;
-  --primary-color-darker: #002266;
+  --primary-color: #1f5793;
+  --primary-color-darker: #17406d;
   --complement-color: #fff;
 }
 
 .App {
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
 }
 
 .Nav-bar{
@@ -14,11 +15,10 @@
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .Nav-bar ul{
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
   top: 0;
   list-style-type: none;
   margin: 0;
@@ -27,8 +27,12 @@
 }
 
 .Nav-bar li{
+  overflow: hidden;
+  vertical-align: bottom;
   display: inline-block;
-  width: 15%;
+  width: 15vw;
+  max-width: 120px;
+  white-space: nowrap;
 }
 
 .Nav-bar li a{
@@ -36,13 +40,12 @@
   display: inline-block;
   padding: 10%;
   color: var(--complement-color);
-  /* background-color: var(--primary-color); */
 }
 
 .Nav-bar li a:hover{
   display: block;
-  color: var(--primary-color);
-  background-color: var(--complement-color);
+  color: var(--complement-color);
+  background-color: var(--primary-color);
 }
 
 .Header {
@@ -51,7 +54,7 @@
   background-position:bottom;
   background-attachment: fixed;
   display: inline-block;
-  width: 100%;
+  width: 100vw;
   padding: 0;
   margin: 0;
   color:  var(--complement-color);
@@ -104,19 +107,88 @@
   height: 1000px;
 }
 
-.Home {
-  text-align: left;
-  padding-top:3%;
-  margin:auto;
-  width: 500px;
+.Component {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: 94%;
+  margin: 3%;
 }
 
-@media screen and (max-width: 550px) {
-  .Home {
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+.Resume{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.Resume iframe{
+  height: 68vh;
+}
+
+.Title {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--primary-color-darker);
+}
+
+.TextBox {
+  text-align: left;
+  width: 600px;
+  margin:auto;
+  padding-top:3%;
+}
+
+.Info-card {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 10px;
+}
+
+.Footer{
+  background-color: var(--primary-color-darker);
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position:fixed;
+  padding-left: 60%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.Footer ul{
+  font-size: 14px;
+  text-align: center;
+  list-style-type: none;
+  padding-right: 10px;
+  margin: 0;
+  color: var(--complement-color);
+}
+
+.Footer li{
+  overflow: hidden;
+  vertical-align: bottom;
+  display: inline-block;
+  width: 20%;
+  min-width: 50px;
+  height: 3vh;
+  white-space: nowrap;
+}
+
+.Footer li a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10%;
+  color: var(--complement-color);
+}
+
+.Footer li a:hover{
+  display: block;
+  color: var(--complement-color);
+  background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 700px) {
+  .TextBox {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
   }
+
 }
 
 
