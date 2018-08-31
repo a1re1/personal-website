@@ -5,7 +5,8 @@ import React from 'react';
       <div className='Component Resume'>
         <iframe
           src="https://drive.google.com/file/d/1e2noNQlSp2ySLmusF4zTiN9Pvf_PrFTb/preview#zoom=50"
-          width="85%"/>
+          width="100%"
+          height="100"/>
       </div>
     );
   };
