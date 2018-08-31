@@ -1,28 +1,127 @@
+:root{
+  --primary-color: #002b80;
+  --primary-color-darker: #002266;
+  --complement-color: #fff;
+}
+
 .App {
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Nav-bar{
+  background-color: var(--primary-color-darker);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.Nav-bar ul{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: var(--complement-color);
 }
 
-.App-title {
-  font-size: 1.5em;
+.Nav-bar li{
+  display: inline-block;
+  width: 15%;
+}
+
+.Nav-bar li a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10%;
+  color: var(--complement-color);
+  /* background-color: var(--primary-color); */
+}
+
+.Nav-bar li a:hover{
+  display: block;
+  color: var(--primary-color);
+  background-color: var(--complement-color);
+}
+
+.Header {
+  background-color:  var(--primary-color);
+  background-image: url("/img/header-bg.jpg");
+  background-position:bottom;
+  background-attachment: fixed;
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color:  var(--complement-color);
+}
+
+.Header p{
+  color: var(--complement-color);
+  font-size: 50px;
+  text-shadow: 0 0 5px black, 0 0 20px black;
+
+}
+
+.Header media{
+  position:fixed;
+  left: 130px;
+  list-style-type: circle;
+  padding-top: 10px;
+}
+
+.Header media box{
+  position:relative;
+  margin-left: 60px;
+}
+
+.Header media box li{
+  position:fixed;
+  height: 30px;
+  border-radius: 30px;
+  background-color:  var(--primary-color-darker);
+  display: inline-block;
+  padding: 0;
+  box-shadow: 2px 2px  rgba(0,0,0,0.3);
+	-moz-box-shadow: 2px 2px  rgba(0,0,0,0.3);
+	-webkit-box-shadow: 2px 2px  rgba(0,0,0,0.3);
+	-o-box-shadow: 2px 2px  rgba(0,0,0,0.3);
+}
+
+.Header media box li:hover{
+  position: fixed;
+  border-radius: 100%;
+  background-color:  var(--primary-color-darker);
+  display: inline-block;
+  box-shadow: none;
+  margin-left: 2px;
+  margin-top: 2px;
 }
 
 .App-intro {
   font-size: large;
+  height: 1000px;
 }
 
-@keyframes App-logo-spin {
+.Home {
+  text-align: left;
+  padding-top:3%;
+  margin:auto;
+  width: 500px;
+}
+
+@media screen and (max-width: 550px) {
+  .Home {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+}
+
+
+/* TODO Look up animations
+  @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} */
