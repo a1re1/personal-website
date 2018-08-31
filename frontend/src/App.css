@@ -144,9 +144,8 @@
   background-color: var(--primary-color-darker);
   bottom: 0;
   right: 0;
-  left: 0;
+  left: 0;zx
   position:fixed;
-  padding-left: 60%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
@@ -164,7 +163,7 @@
   vertical-align: bottom;
   display: inline-block;
   width: 20%;
-  min-width: 50px;
+  max-width: 100px;
   height: 3vh;
   white-space: nowrap;
 }
