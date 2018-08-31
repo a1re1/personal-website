@@ -5,6 +5,7 @@ import Navbar from './Navbar/Navbar';
 import Home from './Home/Home';
 import ResumeComponent from './ResumeComponent/ResumeComponent';
 import FooterComponent from './FooterComponent/FooterComponent';
+import PortfolioComponent from './PortfolioComponent/PortfolioComponent';
 import PageNotFoundComponent from './PageNotFoundComponent/PageNotFoundComponent';
 
 import {
@@ -60,7 +61,7 @@ class App extends Component {
         component: ResumeComponent
       },
       { path: '/portfolio',
-        component: Home
+        component: PortfolioComponent
       },
     ],
 
@@ -86,7 +87,6 @@ class App extends Component {
   render() {
     const routes = this.state.routes.map((route) =>
       < Route exact path={route.path}
-
         render={(props) => <route.component {...props}/>}
       />
     );
