@@ -101,7 +101,6 @@ class App extends Component {
             <Route path='**' component={PageNotFoundComponent} />
           </Switch>
         </Router>
-        <FooterComponent links={this.state.links} />
       </div>
     );
   }

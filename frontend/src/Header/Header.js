@@ -17,7 +17,10 @@ const header = (props) => {
   return (
     <div className='Header'>
       <media>{listItems}</media><br />
-      <p>Tyler Whitehurst</p>
+      <heading>
+        <h1><span className='highlight'>tyler whitehurst</span></h1>
+        <h2><span className='highlight'>computer science student focused on back-end solutions</span></h2>
+      </heading>
     </div>
   );
 };

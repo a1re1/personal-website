@@ -6,7 +6,7 @@
 
 .App {
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
 
@@ -50,13 +50,17 @@
   background-color: var(--primary-color);
 }
 
+.highlight {
+  background: rgba(23, 64, 109, 0.8);
+}
+
 .Header {
   background-color:  var(--primary-color);
   background-image: url("/img/decay.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   background-position:bottom;
-  background-attachment: fixed;
+  background-attachment: absolute;
   display: inline-block;
   width: 100vw;
   height: 100vh;
@@ -65,18 +69,28 @@
   color:  var(--complement-color);
 }
 
-.Header p{
+.Header heading{
   color: var(--complement-color);
-  font-size: 50px;
-  margin-top: 45vh;
-  margin-bottom: 45vh;
-  width: 100vw;
-  text-align: center;
+  margin-top: 30vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  top: 0;
+  left: 0;
+  text-align: left;
   position: absolute;
-  text-shadow: 0 0 5px black, 0 0 20px black;
+  text-shadow: 0 0 1px black;
+}
+
+.Header heading h1{
+  font-size: 7vh;
+}
+
+.Header heading h2{
+  font-size: 3vh;
 }
 
 .Header media{
+  z-index: 100;
   position:fixed;
   left: 130px;
   list-style-type: circle;
