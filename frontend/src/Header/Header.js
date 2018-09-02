@@ -3,7 +3,6 @@ import React from 'react';
 const header = (props) => {
   const media = props.media;
   const listItems = media.map((page) =>
-    <box>
       <li key={page.name.toString()}>
         <a href={page.uri}>
           <img src={`${window.location.origin}${page.icon}`}
@@ -12,11 +11,10 @@ const header = (props) => {
                height="30px"></img>
         </a>
       </li>
-    </box>
   );
   return (
     <div className='Header'>
-      <media>{listItems}</media><br />
+      <ul>{listItems}</ul><br />
       <p>Tyler Whitehurst</p>
     </div>
   );

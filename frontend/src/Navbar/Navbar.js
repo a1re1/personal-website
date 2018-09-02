@@ -1,4 +1,6 @@
 import React from 'react';
+import { slide as Menu } from 'react-burger-menu';
+import { Scrollbars } from 'react-custom-scrollbars';
 
 const navbar = (props) => {
   const pages = props.pages;
@@ -7,9 +9,13 @@ const navbar = (props) => {
       <a href={page.uri}>{page.name}</a>
     </li>
   );
+
   return (
-    <div className='Nav-bar'>
-      <ul>{listItems}</ul>
+    <div className='Menu'>
+      <i className='material-icons'>menu</i>
+      <Menu>
+        <ul>{listItems}</ul>
+      </Menu>
     </div>
   );
 };

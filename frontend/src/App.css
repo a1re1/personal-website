@@ -4,46 +4,74 @@
   --complement-color: #fff;
 }
 
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
 .App {
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
 }
 
-.Nav-bar{
+.Menu{
   z-index: 100;
-  background-color: var(--primary-color-darker);
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: fixed;
+  top: 0;
+  left:0;
+  height: 60px;
+  width: 60px;
 }
 
-.Nav-bar ul{
-  top: 0;
+.bm-item-list, .bm-menu-wrap{
+  max-width: 65vw;
+  background-color: var(--primary-color-darker);
+}
+
+.Menu ul{
+  text-align: left;
+  width: 50vw;
+  background-color: var(--primary-color-darker);
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   color: var(--complement-color);
 }
 
-.Nav-bar li{
+.Menu li{
   overflow: hidden;
   vertical-align: bottom;
-  display: inline-block;
-  width: 15vw;
-  max-width: 120px;
+  display: block;
   white-space: nowrap;
 }
 
-.Nav-bar li a{
+.Menu li a{
   text-decoration: none;
   display: inline-block;
   padding: 10%;
   color: var(--complement-color);
 }
 
-.Nav-bar li a:hover{
+.Menu li a:hover{
   display: block;
   color: var(--complement-color);
   background-color: var(--primary-color);
@@ -56,51 +84,42 @@
   background-attachment: fixed;
   display: inline-block;
   width: 100vw;
-  padding: 0;
-  margin: 0;
   color:  var(--complement-color);
+  position: relative;
 }
 
 .Header p{
   color: var(--complement-color);
   font-size: 50px;
   text-shadow: 0 0 5px black, 0 0 20px black;
-
 }
 
-.Header media{
-  position:fixed;
-  left: 130px;
-  list-style-type: circle;
-  padding-top: 10px;
+.Header ul{
+  bottom: -30px;
+  right: 0px;
+  position:absolute;
+  margin: 10px;
+  padding: 0;
+  list-style-type: none;
 }
 
-.Header media box{
-  position:relative;
-  margin-left: 60px;
-}
-
-.Header media box li{
-  position:fixed;
+.Header li{
+  margin-left: 30px;
   height: 30px;
   border-radius: 30px;
   background-color:  var(--primary-color-darker);
   display: inline-block;
-  padding: 0;
   box-shadow: 2px 2px  rgba(0,0,0,0.3);
 	-moz-box-shadow: 2px 2px  rgba(0,0,0,0.3);
 	-webkit-box-shadow: 2px 2px  rgba(0,0,0,0.3);
 	-o-box-shadow: 2px 2px  rgba(0,0,0,0.3);
 }
 
-.Header media box li:hover{
-  position: fixed;
+.Header li:hover{
+  position: relative;
   border-radius: 100%;
-  background-color:  var(--primary-color-darker);
+  background-color:  var(--primary-color);
   display: inline-block;
-  box-shadow: none;
-  margin-left: 2px;
-  margin-top: 2px;
 }
 
 .App-intro {
@@ -146,7 +165,7 @@
   background-color: var(--primary-color-darker);
   bottom: 0;
   right: 0;
-  left: 0;zx
+  left: 0;
   position:fixed;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }

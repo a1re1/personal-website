@@ -7,7 +7,6 @@ import ResumeComponent from './ResumeComponent/ResumeComponent';
 import FooterComponent from './FooterComponent/FooterComponent';
 import PortfolioComponent from './PortfolioComponent/PortfolioComponent';
 import PageNotFoundComponent from './PageNotFoundComponent/PageNotFoundComponent';
-
 import {
   BrowserRouter as Router,
   Link,
