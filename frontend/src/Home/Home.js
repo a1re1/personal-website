@@ -1,14 +1,31 @@
 import React from 'react';
+import Header from '../Header/Header';
+import ResumeComponent from '../ResumeComponent/ResumeComponent';
+import PortfolioComponent from '../PortfolioComponent/PortfolioComponent';
+
+const state = {
+  media: [
+    { name: "linkedIn",
+      uri: "https://www.linkedin.com/in/tyler-whitehurst-354051128",
+      icon: "/icons/linkd.png"
+    },
+    { name: "facebook",
+      uri: "https://www.facebook.com/a1re1/",
+      icon: "/icons/fb.png"
+    },
+    { name: "instagram",
+      uri: "https://www.instagram.com/a1re123/",
+      icon: "/icons/ig.png"
+    }
+  ],
+}
 
 const home = () => {
   return (
-    <div className='Home TextBox'>
-      <div className="Info-card">
-        <div className='Title'>About Me</div>
-        <p>Hello, my name is Tyler Whitehurst and I am a student enrolled at Rochester Institute of Technology (RIT) in Rochester, NY.
-            I am a Computer Science major who hopes to pursue a career in Software Development or Information analysis.
-        </p>
-      </div>
+    <div>
+      <Header media={state.media}/>
+      <ResumeComponent />
+      <PortfolioComponent />
     </div>
   );
 };

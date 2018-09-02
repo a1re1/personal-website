@@ -14,8 +14,13 @@ const header = (props) => {
   );
   return (
     <div className='Header'>
-      <ul>{listItems}</ul><br />
-      <p>Tyler Whitehurst</p>
+      <div className='Content'>
+        <div className='media'>{listItems}</div><br />
+        <div className='heading'>
+          <h1><span className='highlight'>tyler whitehurst</span></h1>
+          <h2><span className='highlight'>computer science student focused on back-end solutions</span></h2>
+        </div>
+      </div>
     </div>
   );
 };
