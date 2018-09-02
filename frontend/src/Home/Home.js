@@ -108,9 +108,9 @@ const home = () => {
         <div className='Contact Light'>
           <div className='Content'>
             <h1>Contact Me</h1>
+            <p><i className='material-icons-dark'>location_on</i> : Rochester, NY (Open to Relocation)</p>
             <p><i className='material-icons-dark'>email</i> : twwhitehurst@gmail.com</p>
             <p><i className='material-icons-dark'>phone</i> : (205)223-4175</p>
-            <p><i className='material-icons-dark'>location_on</i> : Rochester, NY (Open to Relocation)</p>
           </div>
         </div>
       </ScrollableAnchor>
