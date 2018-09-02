@@ -7,16 +7,16 @@ const header = (props) => {
         <a href={page.uri}>
           <img src={`${window.location.origin}${page.icon}`}
                alt={page.name}
-               width="30px"
-               height="30px"></img>
+               width="48px"
+               height="48px"></img>
         </a>
       </li>
   );
   return (
     <div className='Header'>
-      <div className='Content'>
-        <div className='media'>{listItems}</div><br />
-        <div className='heading'>
+      <div className='media'>{listItems}</div><br />
+      <div className='heading'>
+        <div className='Content'>
           <h1><span className='highlight'>tyler whitehurst</span></h1>
           <h2><span className='highlight'>computer science student focused on back-end solutions</span></h2>
         </div>

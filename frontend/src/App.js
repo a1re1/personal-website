@@ -13,7 +13,7 @@ class App extends Component {
   state = {
     navPages: [
       { name: "Home",
-        uri:"/home"
+        uri:"/"
       },
       { name: "Resume",
         uri:"/#Resume"
@@ -25,7 +25,7 @@ class App extends Component {
         uri:"/blog"
       },
       { name: "Contact Me",
-        uri:"/contact"
+        uri:"/#Contact"
       }
     ],
 
