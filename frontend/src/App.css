@@ -61,6 +61,7 @@
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+.material-icons.md-72 { font-size: 72px; }
 
 .App {
   text-align: center;
@@ -71,6 +72,15 @@
 .Content {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.more{
+    text-shadow: 0 0 5px black, 0 0 20px black;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 5vh;
+    text-align: center;
+    bottom: 0;
 }
 
 .bm-item-list, .bm-menu-wrap{
@@ -99,12 +109,14 @@
 .Menu ul{
   text-align: left;
   width: 50vw;
+  height: 100vh;
   background-color: var(--primary-color-darker);
   list-style-type: none;
   color: var(--complement-color);
 }
 
 .Menu li{
+  height: 14vh;
   overflow: hidden;
   vertical-align: bottom;
   display: block;
@@ -308,8 +320,29 @@ embed{
   padding: 5px;
 }
 
-/* TODO Look up animations
-  @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-} */
+.animated {
+   padding-top:95px;
+   margin-bottom:60px;
+   -webkit-animation-duration: 1.5s;
+   animation-duration: 1.5s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+   animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+   0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+   40% {-webkit-transform: translateY(-30px);}
+   60% {-webkit-transform: translateY(-15px);}
+}
+
+@keyframes bounce {
+   0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+   40% {transform: translateY(-30px);}
+   60% {transform: translateY(-15px);}
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}

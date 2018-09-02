@@ -21,6 +21,11 @@ const header = (props) => {
           <h2><span className='highlight'>computer science student focused on back-end solutions</span></h2>
         </div>
       </div>
+      <div className='more'>
+        <a href='/#Experience'>
+          <i className="material-icons md-72 animated bounce">expand_more</i>
+        </a>
+      </div>
     </div>
   );
 };
