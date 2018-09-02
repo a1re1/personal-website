@@ -234,12 +234,6 @@ embed{
   padding: 10px;
 }
 
-@media screen and (min-width: 1200px) {
-
-
-}
-
-
 /* TODO Look up animations
   @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
