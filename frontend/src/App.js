@@ -24,12 +24,12 @@ class App extends Component {
       { name: "Portfolio",
         uri:"/#Portfolio"
       },
+      { name: "Contact Me",
+        uri:"/#Contact"
+      },
       { name: "Blog",
         uri:"/blog"
       },
-      { name: "Contact Me",
-        uri:"/#Contact"
-      }
     ],
 
     routes: [
