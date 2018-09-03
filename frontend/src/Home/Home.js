@@ -32,59 +32,73 @@ const home = () => {
             <h1>Experience</h1>
             <div className='Card'>
               <h1>Java</h1>
-              <p>I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures. I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.</p>
+              <p>
+                • 3+ years experience<br />
+                • 8k LOC<br />
+                • Data Structures, Standard Libraries<br />
+                • Java 8 Proficient<br />
+                • Spring MVC, REST<br />
+                • Gradle, Maven Dependencies<br />
+              </p>
+              <h2>Read More</h2>
             </div>
             <div className='Card'>
               <h1>C</h1>
-              <p>I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures. I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.</p>
+              <p>
+                • 1+ years experience<br />
+                • 4k LOC<br />
+                • Low-level Dev<br />
+                • Terminal Manipulation<br />
+                • Memory Management<br />
+                • STD libraries<br />
+              </p>
+              <h2>Read More</h2>
             </div>
             <div className='Card'>
-              <h1>Python</h1>
-              <p>I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures. I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.</p>
+              <h1>MySQL, MSSQL, Postgres</h1>
+              <p>
+                • 2+ years experience<br />
+                • Data Normalization<br />
+                • Legacy Data Manipulation<br />
+                • Cross-platform synchronization<br />
+                • Queries, Triggers, Indices<br />
+                • Relational databases<br />
+              </p>
+              <h2>Read More</h2>
             </div>
             <div className='Card'>
               <h1>JavaScript/HTML/CSS</h1>
-              <p>I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures. I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.</p>
-            </div>
-            <div className='Card'>
-              <h1>React</h1>
-              <p>I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures. I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.</p>
-            </div>
-            <div className='Card'>
-              <h1>Node.js</h1>
-              <p>I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures. I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.</p>
-            </div>
-            <div className='Card'>
-              <h1>MySQL, Postgres, MSSQL</h1>
-              <p>I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures. I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.</p>
+              <p>
+                • 1+ years experience<br />
+                • 3k LOC<br />
+                • React.js Front-end<br />
+                • Node.js Back-end<br />
+                • NGINX load-balancing<br />
+                • npm dependencies<br />
+              </p>
+              <h2>Read More</h2>
             </div>
             <div className='Card'>
               <h1>Git, GitHub</h1>
-              <p>I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures. I have 3+ years experience with over 10k LOC; My experience includes
-              standard libraries and data structures.</p>
+              <p>
+                • 3+ years experience<br />
+                • VCS<br />
+                • Coordination<br />
+                • Code Reviews<br />
+                • Markdown formatting<br />
+              </p>
+              <h2>Read More</h2>
+            </div>
+            <div className='Card'>
+              <h1>Python</h1>
+              <p>
+                • 1+ years experience<br />
+                • 2k LOC<br />
+                • Python 2.7<br />
+                • Imperative Programming<br />
+                • Web.py, Psycopg Web Dev<br />
+              </p>
+              <h2>Read More</h2>
             </div>
           </div>
         </div>

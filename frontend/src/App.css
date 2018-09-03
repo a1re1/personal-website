@@ -1,6 +1,7 @@
 :root{
   --primary-color: #1f5793;
   --primary-color-darker: #17406d;
+  --primaty-color-2: #000;
   --complement-color: #fff;
 }
 
@@ -75,12 +76,12 @@
 }
 
 .more{
-    text-shadow: 0 0 5px black, 0 0 20px black;
-    position: absolute;
-    width: 100%;
-    margin-bottom: 5vh;
-    text-align: center;
-    bottom: 0;
+  text-shadow: 0 0 5px black, 0 0 20px black;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 5vh;
+  text-align: center;
+  bottom: 0;
 }
 
 .bm-item-list, .bm-menu-wrap{
@@ -89,6 +90,10 @@
   background-color: var(--primary-color-darker);
   overflow-y: hidden;
   overflow-x: hidden;
+}
+
+.bm-item{
+  z-index: 1000;
 }
 
 .bm-overlay {
@@ -241,7 +246,7 @@
 .Light p{
   font-size: 3vh;
   color: var(--primary-color-darker);
-  text-align: center;
+  text-align: left;
   margin-left: 7%;
   margin-right: 7%;
 }
@@ -290,23 +295,32 @@ embed{
   width: 350px;
   height: 350px;
   padding: 5px;
+  overflow: hidden;
 }
 
 .Card h1{
   font-weight: bold;
   font-size: 3vh;
-  color: var(--primary-color-darker);
-  text-align: left;
-  margin-left: 5%;
+  /* text-decoration: underline var(--primary-color-darker); */
+  color: var(--primary-color-2);
+  text-align: center;
+  margin-top: 5%;
+}
+
+.Card h2{
+  font-weight: bold;
+  font-size: 1.75vh;
+  text-decoration: underline;
+  /* text-decoration: underline var(--primary-color-darker); */
+  color: var(--primary-color-2);
+  text-align: center;
   margin-top: 5%;
 }
 
 .Card p{
-  font-weight: bold;
   font-size: 2.5vh;
-  color: var(--primary-color-darker);
-  text-align: left;
-  margin-left: 5%;
+  color: var(--primary-color-2);
+  text-align: center;
   margin-top: 5%;
 }
 
