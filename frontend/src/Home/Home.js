@@ -26,6 +26,18 @@ const home = () => {
         <div />
       </ScrollableAnchor>
       <Header media={state.media}/>
+      <ScrollableAnchor id='About'>
+        <div className='About Content'>
+          <img className='circle-img Profile-pic' src="/img/profile.jpg" alt='Profile pic'/>
+          <div className='desc'>
+            <h1>About Me</h1>
+            <p>Hey, Im Tyler Whitehurst<br />
+            Im a Computer Science Major with a Math Minor<br/>
+            and I solve problems.
+            </p>
+          </div>
+        </div>
+      </ScrollableAnchor>
       <ScrollableAnchor id='Experience'>
         <div className='Experience Dark'>
           <div className='Content'>

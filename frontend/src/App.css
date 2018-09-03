@@ -221,6 +221,47 @@
   -o-box-shadow: 2px 2px  rgba(0,0,0,0.3);
 }
 
+.About {
+  width: 90%;
+}
+
+.About .Profile-pic{
+  width: 20vh;
+  height: 20vh;
+  display: inline-block;
+  margin: 5%;
+}
+
+.About .desc{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: inline-block;
+}
+
+.About h1{
+  font-weight: bold;
+  font-size: 4vh;
+  color: var(--primary-color-darker);
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 0%;
+  margin-bottom: 1%;
+}
+
+.About  p{
+  font-size: 3vh;
+  color: var(--primary-color-darker);
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.circle-img{
+  top: 0;
+  border-radius: 50%;
+}
+
 .App-intro {
   font-size: large;
   height: 1000px;
