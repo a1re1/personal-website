@@ -22,7 +22,7 @@ const header = (props) => {
         </div>
       </div>
       <div className='more'>
-        <a href='/#Experience'>
+        <a href='/#About'>
           <i className="material-icons md-72 animated bounce">expand_more</i>
         </a>
       </div>

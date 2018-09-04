@@ -336,6 +336,12 @@ embed{
   overflow: hidden;
 }
 
+.card-pic {
+  width: 350px;
+  height: auto;
+  margin: auto;
+}
+
 .Card h1{
   font-weight: bold;
   font-size: 3vh;

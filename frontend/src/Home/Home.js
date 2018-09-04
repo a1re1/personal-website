@@ -129,6 +129,36 @@ const home = () => {
         <div className='Portfolio Dark'>
           <div className='Content'>
             <h1>Portfolio</h1>
+            <div className='Card'>
+              <h1>This Site</h1>
+              <img className='card-pic' src="/img/site.png" alt='Profile pic'/>
+              <h2>Read About My Contributions</h2>
+            </div>
+            <div className='Card'>
+              <h1>GitHub Stats</h1>
+              <img className='card-pic' src="/img/db.png" alt='Profile pic'/>
+              <h2>Read About My Contributions</h2>
+            </div>
+            <div className='Card'>
+              <h1>Web Checkers</h1>
+              <img className='card-pic' src="/img/checkers.png" alt='Profile pic'/>
+              <h2>Read About My Contributions</h2>
+            </div>
+            <div className='Card'>
+              <h1>Programming Notes</h1>
+              <img className='card-pic' src="/img/notes.png" alt='Profile pic'/>
+              <h2>Read About My Contributions</h2>
+            </div>
+            <div className='Card'>
+              <h1>Fin the Fish</h1>
+              <img className='card-pic' src="/img/fin.png" alt='Profile pic'/>
+              <h2>Read About My Contributions</h2>
+            </div>
+            <div className='Card'>
+              <h1>Rise of Angels Minecraft Mod</h1>
+              <img className='card-pic' src="/img/mc-mod.png" alt='Profile pic'/>
+              <h2>Read About My Contributions</h2>
+            </div>
           </div>
         </div>
       </ScrollableAnchor>
