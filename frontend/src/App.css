@@ -336,7 +336,9 @@ embed{
 }
 
 .card-pic {
-  width: 350px;
+  max-width: 350px;
+  max-height: 190px;
+  width: 350px auto;
   height: auto;
   margin: auto;
 }
