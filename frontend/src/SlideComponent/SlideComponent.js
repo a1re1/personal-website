@@ -16,12 +16,13 @@ const styles = theme => ({
     zIndex: 10,
     position: 'fixed',
     left: 0,
-    width: '90vw',
-    'margin-left': '5vw',
     top: 0,
+    width: '90vw',
+    'max-width': '1200px',
     'max-height': '90vh',
+    'margin-left': '5vw',
     'margin-top': '5vh',
-    'overflow-y': 'scroll',
+    'overflow-y': 'auto',
   },
 });
 
