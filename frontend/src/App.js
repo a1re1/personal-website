@@ -15,6 +15,9 @@ class App extends Component {
       { name: "Home",
         uri:"/#Home"
       },
+      { name: "About Me",
+        uri:"/#About"
+      },
       { name: "Experience",
         uri:"/#Experience"
       },

@@ -121,7 +121,7 @@
 }
 
 .Menu li{
-  height: 14vh;
+  height: 12vh;
   overflow: hidden;
   vertical-align: bottom;
   display: block;
@@ -205,14 +205,14 @@
 .Header li{
   margin-left: 30px;
   height: 48px;
-  border-radius: 48px;
+  border-radius: 50%;
   background-color:  var(--primary-color-darker);
   display: inline-block;
 }
 
 .Header li:hover{
   position: relative;
-  border-radius: 100%;
+  border-radius: 50%;
   background-color:  var(--primary-color);
   display: inline-block;
   box-shadow: 2px 2px  rgba(0,0,0,0.3);
@@ -230,6 +230,10 @@
   height: 20vh;
   display: inline-block;
   margin: 5%;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.4);
+  -moz-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 2px 2px 2px 2px  rgba(0,0,0,0.4);
+  -o-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.4);
 }
 
 .About .desc{
@@ -247,15 +251,6 @@
   margin-top: 0%;
   margin-bottom: 1%;
 }
-
-.About  p{
-  font-size: 3vh;
-  color: var(--primary-color-darker);
-  text-align: left;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
 
 .circle-img{
   top: 0;
@@ -280,6 +275,7 @@
   color: var(--primary-color-darker);
   text-align: left;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 0%;
   margin-bottom: 1%;
 }
@@ -288,8 +284,8 @@
   font-size: 3vh;
   color: var(--primary-color-darker);
   text-align: left;
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .Dark{
@@ -305,6 +301,7 @@
   color: var(--complement-color);
   text-align: left;
   margin-left: 5%;
+  margin-right: 5%;
   margin-top: 0%;
   margin-bottom: 1%;
 }
