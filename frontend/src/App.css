@@ -93,7 +93,11 @@
 }
 
 .bm-item{
-  z-index: 1000;
+  z-index: 100;
+}
+
+.bm-burger-button{
+  z-index: 10;
 }
 
 .bm-overlay {
@@ -101,7 +105,7 @@
 }
 
 .Menu{
-  z-index: 1000;
+  z-index: 100;
   position: fixed;
   top: 0;
   left: 0;
@@ -185,7 +189,7 @@
 }
 
 .Header .media{
-  z-index: 100;
+  z-index: 10;
   position:fixed;
   right: 15px;
   list-style-type: circle;

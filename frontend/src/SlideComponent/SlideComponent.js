@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
-import Switch from '@material-ui/core/Switch';
 import Paper from '@material-ui/core/Paper';
 import Slide from '@material-ui/core/Slide';
+import Button from '@material-ui/core/Button';
+import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 
 const styles = theme => ({
   root: {
@@ -12,7 +13,7 @@ const styles = theme => ({
   wrapper: {
   },
   paper: {
-    zIndex: 1,
+    zIndex: 10,
     position: 'fixed',
     left: 0,
     width: '90vw',
@@ -20,39 +21,51 @@ const styles = theme => ({
     top: 0,
     'max-height': '90vh',
     'margin-top': '5vh',
+    'overflow-y': 'scroll',
   },
 });
 
 class SimpleSlide extends React.Component {
   state = {
-    checked: false,
+    open: false,
   };
 
-  handleChange = () => {
-    this.setState(state => ({ checked: !state.checked }));
+  handleClick = () => {
+    this.setState(state => ({
+      open: !state.open,
+    }));
+  };
+
+  handleClickAway = () => {
+    this.setState({
+      open: false,
+    });
   };
 
   render() {
     const { classes } = this.props;
-    const { checked } = this.state;
+    const { open } = this.state;
 
     return (
       <div className={classes.root}>
         <div className={classes.wrapper}>
-          <Switch checked={checked} onChange={this.handleChange} aria-label="Collapse" />
-          <Slide direction="right" in={checked} mountOnEnter unmountOnExit>
-            <Paper elevation={4} className={classes.paper}>
-              <h1>Testing Card</h1>
-              <p>
-                lorum ipsum latin <br />
-                lorum ipsum latin <br />
-                lorum ipsum latin <br />
-                lorum ipsum latin <br />
-                lorum ipsum latin <br />
-                lorum ipsum latin <br />
-              </p>
-            </Paper>
-          </Slide>
+          <ClickAwayListener onClickAway={this.handleClickAway}>
+            <div>
+              <Button onClick={this.handleClick}>Contributions</Button>
+                {open ? (
+                  <Slide direction="right" in={open} mountOnEnter unmountOnExit>
+                    <Paper elevation={4} className={classes.paper}>
+                      <h1>Testing Card</h1>
+                      <p>
+                        lorum ipsum latin <br />
+                        lorum ipsum latin <br />
+                        lorum ipsum latin <br />
+                      </p>
+                    </Paper>
+                  </Slide>
+              ) : null}
+            </div>
+          </ClickAwayListener>
         </div>
       </div>
     );
