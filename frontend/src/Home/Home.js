@@ -131,32 +131,42 @@ const home = () => {
             <h1>Portfolio</h1>
             <div className='Card'>
               <h1>This Site</h1>
-              <img className='card-pic' src="/img/site.png" alt='Profile pic'/>
+              <img className='card-pic' src="/img/site.png" alt='Web-dev'/>
+              <h2>Read About My Contributions</h2>
+            </div>
+            <div className='Card'>
+              <h1>Selenium Automation Testing</h1>
+              <img className='card-pic' src="/img/selenium.png" alt='Selenium'/>
               <h2>Read About My Contributions</h2>
             </div>
             <div className='Card'>
               <h1>GitHub Stats</h1>
-              <img className='card-pic' src="/img/db.png" alt='Profile pic'/>
+              <img className='card-pic' src="/img/db.png" alt='DB Project'/>
               <h2>Read About My Contributions</h2>
             </div>
             <div className='Card'>
               <h1>Web Checkers</h1>
-              <img className='card-pic' src="/img/checkers.png" alt='Profile pic'/>
+              <img className='card-pic' src="/img/checkers.png" alt='Web checkers'/>
+              <h2>Read About My Contributions</h2>
+            </div>
+            <div className='Card'>
+              <h1>Wild Fire Simulator</h1>
+              <img className='card-pic' src="/img/fire.gif" alt='Wild Fire'/>
               <h2>Read About My Contributions</h2>
             </div>
             <div className='Card'>
               <h1>Programming Notes</h1>
-              <img className='card-pic' src="/img/notes.png" alt='Profile pic'/>
+              <img className='card-pic' src="/img/notes.png" alt='Notes repository'/>
               <h2>Read About My Contributions</h2>
             </div>
             <div className='Card'>
               <h1>Fin the Fish</h1>
-              <img className='card-pic' src="/img/fin.png" alt='Profile pic'/>
+              <img className='card-pic' src="/img/fin.png" alt='p5.js game'/>
               <h2>Read About My Contributions</h2>
             </div>
             <div className='Card'>
               <h1>Rise of Angels Minecraft Mod</h1>
-              <img className='card-pic' src="/img/mc-mod.png" alt='Profile pic'/>
+              <img className='card-pic' src="/img/mc-mod.png" alt='Minecraft Mod'/>
               <h2>Read About My Contributions</h2>
             </div>
           </div>
