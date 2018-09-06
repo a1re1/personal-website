@@ -136,9 +136,10 @@ const home = () => {
               <h2>
                 < Slide title={<h1>This Website</h1>}
                         body={<p1>
-                                My current website: https://www.tylerwhitehurst.com/
+                                <br/>The website you are currently visiting
                                 showcases some of my experiences with education and in
-                                developer roles as well as showing off my design skills.
+                                developer roles. It shows off my design skills an technologies
+                                that I have worked with as I grow my career.
                                 The website was built from the ground up using Node.js
                                 as a back-end with a React.js front-end with CSS styling.
                               </p1>}
@@ -151,7 +152,18 @@ const home = () => {
               <h2>
                 < Slide title={<h1>Selenium Automation Testing</h1>}
                         body={<p1>
-                                My current website: https://www.tylerwhitehurst.com/ showcases some of my experiences with education and in developer roles as well as showing off my design skills. The website was built from the ground up using Node.js as a back-end with a React.js front-end with CSS styling.
+                                <br/>At my past company I worked closely with QA in to test
+                                new development features before they reached production. This
+                                line of work strengthened my ability to create test
+                                cases and clearly define the scope of stories in order to
+                                understand how features are designed to act. Working in QA
+                                trained me to take a more thoughtful approach to my
+                                work in order to avoid careless mistakes and adequately
+                                address edge cases with my designs. With this position I
+                                caught and debugged multiple issues before they reached
+                                production which helped prevent future problems for my
+                                company. I also debugged multiple bugs in production
+                                code in order to help fix issues reported by customers.
                               </p1>}
                 />
               </h2>
@@ -162,7 +174,36 @@ const home = () => {
               <h2>
                 < Slide title={<h1>GitHub Stats</h1>}
                         body={<p1>
-                                My current website: https://www.tylerwhitehurst.com/ showcases some of my experiences with education and in developer roles as well as showing off my design skills. The website was built from the ground up using Node.js as a back-end with a React.js front-end with CSS styling.
+                                <br/>About: <br/>
+                                This was an 8 week long Project with a group of 3 people
+                                (including myself) for my Principles of Database
+                                Management class. The objective of the project was to
+                                demonstrate the use of a relational database in a
+                                practical setting. We chose to base our project on a
+                                head-to-head user comparison of stats from a user's
+                                GitHub data. We did not, however, extract a user's actual
+                                GitHub stats using an api, but instead
+                                generated sample data that could be from a real user.
+                                <br/>
+                                <br/>
+                                The Tech:<br/>
+                                The project was written in Python and used the Web.py
+                                library to build the server. On the backend, we
+                                used PostGres to create a relational database which was
+                                queried by our python application. All of our
+                                data was generated using a shell script to import data
+                                from a library of sample fake data. When run, the
+                                server is set up on the default http port of 8080.
+                                <br/>
+                                <br/>
+                                Reflection:<br/>
+                                This project helped me to understand relational databases
+                                and the capabilities of Databases to process
+                                information. I now understand the necessity of database
+                                normalization in order to remove redundancies
+                                of data. I also now have a cursory understanding of how
+                                indices can speed up query processesing when
+                                working with large quantities of data.
                               </p1>}
                 />
               </h2>
@@ -173,7 +214,7 @@ const home = () => {
               <h2>
                 < Slide title={<h1>Web Checkers</h1>}
                         body={<p1>
-                                About: <br />
+                                <br/>About: <br />
                                 This project took place over the course of a 14 week semester during a software engineering course.
                                 The was taken on by a team of four students (including myself) with the goal of creating a web based
                                 application that functionally can player a game of checkers with another user.
@@ -200,7 +241,11 @@ const home = () => {
               <h2>
                 < Slide title={<h1>Wild Fire Simulator</h1>}
                         body={<p1>
-                                ...
+                                <br/>This will be expanded upon later. Unfortunately
+                                I cannot link to the source code as this was a project
+                                for my CS243: Mechanics of Programming class to understand
+                                the basics of compilers, memory management, and operating systems
+                                as well as learning C.<br/>
                               </p1>}
                 />
               </h2>
@@ -211,7 +256,9 @@ const home = () => {
               <h2>
                 < Slide title={<h1>Programming Notes</h1>}
                         body={<p1>
-                                ...
+                                <br/>This will be expanded upon later, but in the meantime,
+                                check out the source code here: <br/> <br/>
+                                <a href='https://github.com/a1re1/programming-notes'>Project</a>
                               </p1>}
                 />
               </h2>
@@ -222,7 +269,9 @@ const home = () => {
               <h2>
                 < Slide title={<h1>Fin the Fish</h1>}
                         body={<p1>
-                                ...
+                                <br/>This will be expanded upon later, but in the meantime,
+                                check out the source code here: <br/> <br/>
+                                <a href='https://github.com/a1re1/FishFood'>Project</a>
                               </p1>}
                 />
               </h2>
@@ -233,7 +282,14 @@ const home = () => {
               <h2>
                 < Slide title={<h1>Rise of Angels Minecraft Mod</h1>}
                         body={<p1>
-                                ...
+                                <br/>About: <br />
+                                Rise of Angels is a minecraft mod focused on the balance
+                                between angels and demons. It is written in
+                                Java using the forge api libraries so that it can be loaded
+                                into the minecraft client. The mod adds some
+                                building blocks as well as some basic world generation to
+                                the vanilla Minecraft 1.7.10 game. <br/> <br/>
+                                <a href='https://github.com/a1re1/Rise_of_Angels'>Project</a>
                               </p1>}
                 />
               </h2>
