@@ -133,42 +133,110 @@ const home = () => {
             <div className='Card'>
               <h1>This Site</h1>
               <img className='card-pic' src="/img/site.png" alt='Web-dev'/>
-              <h2><Slide /></h2>
+              <h2>
+                < Slide title={<h1>This Website</h1>}
+                        body={<p1>
+                                My current website: https://www.tylerwhitehurst.com/
+                                showcases some of my experiences with education and in
+                                developer roles as well as showing off my design skills.
+                                The website was built from the ground up using Node.js
+                                as a back-end with a React.js front-end with CSS styling.
+                              </p1>}
+                />
+              </h2>
             </div>
             <div className='Card'>
               <h1>Selenium Automation Testing</h1>
               <img className='card-pic' src="/img/selenium.png" alt='Selenium'/>
-              <h2><Slide /></h2>
+              <h2>
+                < Slide title={<h1>Selenium Automation Testing</h1>}
+                        body={<p1>
+                                My current website: https://www.tylerwhitehurst.com/ showcases some of my experiences with education and in developer roles as well as showing off my design skills. The website was built from the ground up using Node.js as a back-end with a React.js front-end with CSS styling.
+                              </p1>}
+                />
+              </h2>
             </div>
             <div className='Card'>
               <h1>GitHub Stats</h1>
               <img className='card-pic' src="/img/db.png" alt='DB Project'/>
-              <h2><Slide /></h2>
+              <h2>
+                < Slide title={<h1>GitHub Stats</h1>}
+                        body={<p1>
+                                My current website: https://www.tylerwhitehurst.com/ showcases some of my experiences with education and in developer roles as well as showing off my design skills. The website was built from the ground up using Node.js as a back-end with a React.js front-end with CSS styling.
+                              </p1>}
+                />
+              </h2>
             </div>
             <div className='Card'>
               <h1>Web Checkers</h1>
               <img className='card-pic' src="/img/checkers.png" alt='Web checkers'/>
-              <h2><Slide /></h2>
+              <h2>
+                < Slide title={<h1>Web Checkers</h1>}
+                        body={<p1>
+                                About: <br />
+                                This project took place over the course of a 14 week semester during a software engineering course.
+                                The was taken on by a team of four students (including myself) with the goal of creating a web based
+                                application that functionally can player a game of checkers with another user.
+                                <br />
+                                <br />
+                                The Tech:<br />
+                                The project was written in Java and incorporated a Spark based web server, using Maven to aggregate
+                                the appropriate libraries needed to build the server. The server allows for users to connect through a
+                                simple http client with the default port of 4567.
+                                <br />
+                                <br />
+                                Reflection:<br />
+                                This project was a good introduction to development in a team environment. As a team, we used Slack
+                                for communication purposes and Trello in order to keep track of User Stories that needed to be
+                                implemented. Over the course of the semester, I was able to take part in team building activities in order
+                                to strengthen my ability to work with others.
+                              </p1>}
+                />
+              </h2>
             </div>
             <div className='Card'>
               <h1>Wild Fire Simulator</h1>
               <img className='card-pic' src="/img/fire.gif" alt='Wild Fire'/>
-              <h2><Slide /></h2>
+              <h2>
+                < Slide title={<h1>Wild Fire Simulator</h1>}
+                        body={<p1>
+                                ...
+                              </p1>}
+                />
+              </h2>
             </div>
             <div className='Card'>
               <h1>Programming Notes</h1>
               <img className='card-pic' src="/img/notes.png" alt='Notes repository'/>
-              <h2><Slide /></h2>
+              <h2>
+                < Slide title={<h1>Programming Notes</h1>}
+                        body={<p1>
+                                ...
+                              </p1>}
+                />
+              </h2>
             </div>
             <div className='Card'>
               <h1>Fin the Fish</h1>
               <img className='card-pic' src="/img/fin.png" alt='p5.js game'/>
-              <h2><Slide /></h2>
+              <h2>
+                < Slide title={<h1>Fin the Fish</h1>}
+                        body={<p1>
+                                ...
+                              </p1>}
+                />
+              </h2>
             </div>
             <div className='Card'>
               <h1>Rise of Angels Minecraft Mod</h1>
               <img className='card-pic' src="/img/mc-mod.png" alt='Minecraft Mod'/>
-              <h2><Slide /></h2>
+              <h2>
+                < Slide title={<h1>Rise of Angels Minecraft Mod</h1>}
+                        body={<p1>
+                                ...
+                              </p1>}
+                />
+              </h2>
             </div>
           </div>
         </div>

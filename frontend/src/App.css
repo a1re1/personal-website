@@ -350,7 +350,6 @@ embed{
 .Card h1{
   font-weight: bold;
   font-size: 3vh;
-  /* text-decoration: underline var(--primary-color-darker); */
   color: var(--primary-color-2);
   text-align: center;
   margin-top: 5%;
@@ -360,7 +359,6 @@ embed{
   font-weight: bold;
   font-size: 1.75vh;
   text-decoration: underline;
-  /* text-decoration: underline var(--primary-color-darker); */
   color: var(--primary-color-2);
   text-align: center;
   margin-top: 5%;
@@ -381,6 +379,25 @@ embed{
   width: 350px;
   height: 350px;
   padding: 5px;
+}
+
+.paper {
+  background-color: var(--complement-color);
+  margin: 10px;
+  display:inline-grid;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 10vh;
+  z-index: 10;
+  position: fixed;
+  text-align: left;
+  left: 0;
+  top: 0;
+  width: 70vw;
+  max-width: 1200px;
+  max-height: 90vh;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  overflow-y: auto;
 }
 
 .animated {
