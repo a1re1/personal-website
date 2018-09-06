@@ -316,6 +316,15 @@ embed{
   margin-right: 5%;
 }
 
+h2{
+  font-weight: bold;
+  font-size: 3vh;
+  text-decoration: underline;
+  color: var(--complement-color);
+  text-align: center;
+  margin-top: 5%;
+}
+
 .Title {
   font-weight: bold;
   font-size: 20px;

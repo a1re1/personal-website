@@ -55,7 +55,6 @@ const home = () => {
                 • Spring MVC, REST<br />
                 • Gradle, Maven Dependencies<br />
               </p>
-              <h2>Read More</h2>
             </div>
             <div className='Card'>
               <h1>C</h1>
@@ -67,7 +66,6 @@ const home = () => {
                 • Memory Management<br />
                 • STD libraries<br />
               </p>
-              <h2>Read More</h2>
             </div>
             <div className='Card'>
               <h1>MySQL, MSSQL, Postgres</h1>
@@ -79,7 +77,6 @@ const home = () => {
                 • Queries, Triggers, Indices<br />
                 • Relational databases<br />
               </p>
-              <h2>Read More</h2>
             </div>
             <div className='Card'>
               <h1>JavaScript/HTML/CSS</h1>
@@ -91,7 +88,6 @@ const home = () => {
                 • NGINX load-balancing<br />
                 • npm dependencies<br />
               </p>
-              <h2>Read More</h2>
             </div>
             <div className='Card'>
               <h1>Git, GitHub</h1>
@@ -102,7 +98,6 @@ const home = () => {
                 • Code Reviews<br />
                 • Markdown formatting<br />
               </p>
-              <h2>Read More</h2>
             </div>
             <div className='Card'>
               <h1>Python</h1>
@@ -113,8 +108,8 @@ const home = () => {
                 • Imperative Programming<br />
                 • Web.py, Psycopg Web Dev<br />
               </p>
-              <h2>Read More</h2>
             </div>
+            <a href='/#Portfolio'><h2>Read More</h2></a>
           </div>
         </div>
       </ScrollableAnchor>
