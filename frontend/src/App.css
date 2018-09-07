@@ -316,7 +316,7 @@ embed{
   margin-right: 5%;
 }
 
-h2{
+h3{
   font-weight: bold;
   font-size: 3vh;
   text-decoration: underline;
@@ -402,7 +402,7 @@ h2{
   left: 0;
   top: 0;
   width: 70vw;
-  max-width: 1200px;
+  max-width: 650px;
   max-height: 90vh;
   margin-left: 5vw;
   margin-top: 5vh;

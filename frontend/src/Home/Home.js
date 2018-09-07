@@ -109,7 +109,7 @@ const home = () => {
                 • Web.py, Psycopg Web Dev<br />
               </p>
             </div>
-            <a href='/#Portfolio'><h2>Read More</h2></a>
+            <a href='/#Portfolio'><h3>Read More</h3></a>
           </div>
         </div>
       </ScrollableAnchor>
