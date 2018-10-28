@@ -8,12 +8,37 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" href="./resources/jaluinsky.css">
+    <link type="text/css" rel="stylesheet" href="./resources/clock_assets/flipclock.css" />
     <title>Jaluinsky</title>
   </head>
   <body id="body">
     <div id="main">
       <div id="info">
         <h>Server Information</h>
+        </br>
+        <center>
+          <div id="count-down">
+            <p>Tentative <b>Launch</b></p>
+            </br>
+            <div class="clock-builder-output"></div>
+            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+            <script type="text/javascript" src="./resources/clock_assets/flipclock.js"></script>
+            <style text="text/css">body .flip-clock-wrapper ul li a div div.inn, body .flip-clock-small-wrapper ul li a div div.inn { color: #CCCCCC; background-color: #333333; } body .flip-clock-dot, body .flip-clock-small-wrapper .flip-clock-dot { background: #323434; } body .flip-clock-wrapper .flip-clock-meridium a, body .flip-clock-small-wrapper .flip-clock-meridium a { color: #323434; }</style>
+            <script type="text/javascript">
+            $(function(){
+            	FlipClock.Lang.Custom = { days:'Days', hours:'Hours', minutes:'Minutes', seconds:'Seconds' };
+            	var opts = {
+            		clockFace: 'DailyCounter',
+            		countdown: true,
+            		language: 'Custom'
+            	};
+            	var countdown = 1541865600 - ((new Date().getTime())/1000); // from: 11/10/2018 12:00 pm -0400
+            	countdown = Math.max(1, countdown);
+            	$('.clock-builder-output').FlipClock(countdown, opts);
+            });
+            </script>
+          </div>
+        </center>
         <p>
           Welcome to Jaluinsky. On this server, we wish to play a semi-vanilla minecraft
           experience similar to that of Hermit Craft. We do not use mod packs, but are
@@ -92,7 +117,7 @@
            longer wish to be protected by this code.</br></li>
          <li>Criminal Definition</br>
             <ol type="1"><li> With the vote of at least 3 other Jaluiskians, by the /accuse
-             command, a member will be sent to the courtroom for trial. {Bounty Systems?}</li>
+             command, a member will be sent to the courtroom for trial.</li>
             <li> Disputes between fewer members leave the burden of proof to the accusers.</li></ol></li>
           <li>Trials</br>
             <ol type="1"><li>Trials will be held over the course of a 24 hour time period
@@ -129,7 +154,7 @@
           <ol type="A"><li>Spamming attracts a mystical bird of prey which is fond of the throat
            of players. This will render a player unable to speak. In order to heal
             such injuries, 10 mages must band together and perform a healing ritual
-             outlined here. {9 mages must simultaneously throw 1 block of diamond
+             outlined here: {9 mages must simultaneously throw 1 block of diamond
                 into a pit of lava while the final mage sacrifices the mute player.
                  Upon revival, the throat shall be restored, and the player will
                   be able to talk again.}</li></ol></li>

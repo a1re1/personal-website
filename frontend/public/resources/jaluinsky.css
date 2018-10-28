@@ -2,6 +2,7 @@
 #body{
   background-image: url("../img/avalanche.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #main{
@@ -60,4 +61,18 @@
 #creed{
   background-color: rgba(36,36,36,.9);
   padding: 25px;
+}
+
+#count-down{
+  width: 650px;
+  margin: auto;
+}
+
+#count-down p{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#count-down p b{
+  color: #1aa3ff;
 }
