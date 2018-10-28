@@ -8,7 +8,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" href="./resources/jaluinsky.css">
-    <link type="text/css" rel="stylesheet" href="./resources/clock_assets/flipclock.css" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./resources/css/style.css">
     <title>Jaluinsky</title>
   </head>
   <body id="body">
@@ -18,25 +19,11 @@
         </br>
         <center>
           <div id="count-down">
-            <p>Tentative <b>Launch</b></p>
-            </br>
-            <div class="clock-builder-output"></div>
-            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-            <script type="text/javascript" src="./resources/clock_assets/flipclock.js"></script>
-            <style text="text/css">body .flip-clock-wrapper ul li a div div.inn, body .flip-clock-small-wrapper ul li a div div.inn { color: #CCCCCC; background-color: #333333; } body .flip-clock-dot, body .flip-clock-small-wrapper .flip-clock-dot { background: #323434; } body .flip-clock-wrapper .flip-clock-meridium a, body .flip-clock-small-wrapper .flip-clock-meridium a { color: #323434; }</style>
-            <script type="text/javascript">
-            $(function(){
-            	FlipClock.Lang.Custom = { days:'Days', hours:'Hours', minutes:'Minutes', seconds:'Seconds' };
-            	var opts = {
-            		clockFace: 'DailyCounter',
-            		countdown: true,
-            		language: 'Custom'
-            	};
-            	var countdown = 1541865600 - ((new Date().getTime())/1000); // from: 11/10/2018 12:00 pm -0400
-            	countdown = Math.max(1, countdown);
-            	$('.clock-builder-output').FlipClock(countdown, opts);
-            });
-            </script>
+            <div class="wrap">
+              <h1>Tentative <strong>Launch</strong></h1>
+              <span data-cdt-id="2300982">--:--:--:--</span>
+              <script src="https://w2.countingdownto.com/2300982.js"></script>
+            </div>
           </div>
         </center>
         <p>
@@ -94,8 +81,11 @@
           <table>
           <tr>
             <td>
-              <p> Current Players 2/25 </p>
+              <p> Current Players 5/25 </p>
               <ul>
+                <li> amoran </li>
+                <li> capecod69 </li>
+                <li> mikeymc7 </li>
                 <li> a1re1 </li>
                 <li> ksenia_kochak </li>
               </ul>
@@ -108,7 +98,7 @@
         </center>
       </div>
       <div id="creed">
-      The Jaluinsky Code </br>
+        The Jaluinsky Code </br>
         <ol type="I"><li>Enfranchisement Creed </br>
           <ol type="A"><li>All other server rules are eligible to change with the approval of
            at least a 65% supermajority of members willing to change a law.</li></ol></li>
@@ -159,7 +149,7 @@
                  Upon revival, the throat shall be restored, and the player will
                   be able to talk again.}</li></ol></li>
         </ol>
-    </div>
+      </div>
     </div>
   </body>
 </html>
