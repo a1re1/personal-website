@@ -1,0 +1,51 @@
+
+#body{
+  background-image: url("../img/avalanche.jpg");
+  background-size: cover;
+}
+
+#main{
+  max-width: 90vw;
+  width: 70%;
+  margin: auto;
+  color: white;
+  font-family: Roboto;
+}
+
+#count{
+  background-color: rgba(36,36,36,.9);
+  padding: 25px;
+  font-size: 24px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+#info{
+  background-color: rgba(36,36,36,.9);
+  padding: 25px;
+  font-size: 24px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+#info h{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#info a{
+  color: #ccf5ff;
+}
+
+#info a:visited{
+  color: #66e0ff
+}
+
+#info a:hover{
+  color: #00a3cc;
+}
+
+#creed{
+  background-color: rgba(36,36,36,.9);
+  padding: 25px;
+}
