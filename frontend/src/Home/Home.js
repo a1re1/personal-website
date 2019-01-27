@@ -14,7 +14,7 @@ const state = {
       icon: "/icons/hub.png"
     },
     { name: "instagram",
-      uri: "https://www.instagram.com/a1re123/",
+      uri: "https://www.instagram.com/twhitehurst_/",
       icon: "/icons/ig.png"
     }
   ],
