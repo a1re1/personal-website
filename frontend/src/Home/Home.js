@@ -265,13 +265,13 @@ const home = () => {
                 < Slide title={<h1>Fin the Fish</h1>}
                         body={<p1>
                                 <br/>
-                                <div class="row">
-                                  <div class="column">
+                                <div className="row">
+                                  <div className="column">
                                     <iframe src="https://a1re1.github.io/FishFood/www/index.html" height='600' title='Fin the Fish'>                         
                                       <p>Your browser does not support iframes.</p>
                                     </iframe>
                                   </div>
-                                  <div class="column">
+                                  <div className="column">
                                     <br/>Fin the Fish is a mobile friendly web game programmed in JavaScript using the p5.js libraries. <br/>
                                     <br/>
                                     Controls:<br/>
