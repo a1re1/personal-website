@@ -104,6 +104,14 @@
   top: 0;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
 .Menu{
   z-index: 100;
   position: fixed;

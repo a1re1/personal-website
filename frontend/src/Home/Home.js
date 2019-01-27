@@ -33,9 +33,8 @@ const home = () => {
             <img className='circle-img Profile-pic' src="/img/profile.jpg" alt='Profile pic'/>
             <div className='desc'>
               <h1>About Me</h1>
-              <p>Hey, Im Tyler Whitehurst<br />
-              Im a Computer Science Major with a Math Minor<br/>
-              and I solve problems.
+              <p>Hey, Im Tyler Whitehurst<br/>
+              I'm a Computer Science Major and I am interested in the ways we communicate.<br/>
               </p>
             </div>
           </div>
@@ -133,9 +132,9 @@ const home = () => {
                         body={<p1>
                                 <br/>The website you are currently visiting
                                 showcases some of my experiences with education and in
-                                developer roles. It shows off my design skills an technologies
-                                that I have worked with as I grow my career.
-                                The website was built from the ground up using Node.js
+                                developer roles. It shows off my design skills and technologies
+                                that I have worked with throughout my career.
+                                The website was built using Node.js
                                 as a back-end with a React.js front-end with CSS styling.
                               </p1>}
                 />
@@ -147,18 +146,15 @@ const home = () => {
               <h2>
                 < Slide title={<h1>Selenium Automation Testing</h1>}
                         body={<p1>
-                                <br/>At my past company I worked closely with QA in to test
-                                new development features before they reached production. This
-                                line of work strengthened my ability to create test
-                                cases and clearly define the scope of stories in order to
-                                understand how features are designed to act. Working in QA
+                                <br/>At my PowerSchool I worked closely with QA to test
+                                new development features. These tasks strengthened my ability to create test
+                                cases and clearly define the scope of use ccases in order to
+                                understand feature design. Working in QA
                                 trained me to take a more thoughtful approach to my
                                 work in order to avoid careless mistakes and adequately
-                                address edge cases with my designs. With this position I
+                                address edge cases. With this position I
                                 caught and debugged multiple issues before they reached
-                                production which helped prevent future problems for my
-                                company. I also debugged multiple bugs in production
-                                code in order to help fix issues reported by customers.
+                                production which helped prevent future problems for development engineers. 
                               </p1>}
                 />
               </h2>
@@ -251,8 +247,12 @@ const home = () => {
               <h2>
                 < Slide title={<h1>Programming Notes</h1>}
                         body={<p1>
-                                <br/>This will be expanded upon later, but in the meantime,
-                                check out the source code here: <br/> <br/>
+                                <br/>This repo is a collection of notes that I have taken through out my career. 
+                                I strongly believe that taking in depth notes during development helps you 
+                                to reason through design choices and have a better understanding of why 
+                                you are making certain decisions. These notes are primarily on languages I have 
+                                learned however due to confidentiality of most projects that I have worked on. 
+                                Check out the source here: <br/> <br/>
                                 <a href='https://github.com/a1re1/programming-notes'>Project</a>
                               </p1>}
                 />
@@ -264,9 +264,32 @@ const home = () => {
               <h2>
                 < Slide title={<h1>Fin the Fish</h1>}
                         body={<p1>
-                                <br/>This will be expanded upon later, but in the meantime,
-                                check out the source code here: <br/> <br/>
-                                <a href='https://github.com/a1re1/FishFood'>Project</a>
+                                <br/>
+                                <div class="row">
+                                  <div class="column">
+                                    <iframe src="https://a1re1.github.io/FishFood/www/index.html" height='600' title='Fin the Fish'>                         
+                                      <p>Your browser does not support iframes.</p>
+                                    </iframe>
+                                  </div>
+                                  <div class="column">
+                                    <br/>Fin the Fish is a mobile friendly web game programmed in JavaScript using the p5.js libraries. <br/>
+                                    <br/>
+                                    Controls:<br/>
+                                    <br/>
+                                    a - paddle left fin<br/>
+                                    d - paddle right fin<br/>
+                                    <br/>
+                                    a + d - move straight(with speed boost)<br/>
+                                    <br/>
+                                    *On mobile, tap the side of the screen you want to paddle.<br/>
+                                    <br/>
+                                    Summary:<br/>
+                                    Dodge the sharks and seaweed in order to last as long as you can. The ocean is a dangerous place and as such the life of a fish is hard. How long can you survive in the Deep Blue.<br/>
+                                    <br/>
+                                    source:<br/>
+                                    <a href='https://github.com/a1re1/FishFood'>Project</a>
+                                  </div>
+                                </div>
                               </p1>}
                 />
               </h2>
