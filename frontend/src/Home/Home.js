@@ -35,7 +35,7 @@ const home = () => {
               <h1>About Me</h1>
               <p>Hey, Im Tyler Whitehurst<br/>
               I'm a Computer Science Major and I am interested in the ways we communicate.<br/>
-              </p>
+              </p><br/>
             </div>
           </div>
         </div>
@@ -44,6 +44,32 @@ const home = () => {
         <div className='Experience Dark'>
           <div className='Content'>
             <h1>Experience</h1>
+            <div className='Card'>
+              <h1>HubSpot</h1>
+              <img className='card-pic' src="/img/hubspot.png" alt='HubSpot'/>
+              <h2>
+                < Slide title={<h1>HubSpot</h1>}
+                        body={<p1><br/>Experience on a back-end communications team.
+                                Built endpoints for integrations for popular
+                                messaging applications. Migrated data models between multiple databases. Closely worked with Bots
+                                team to develop resources for bot communication.
+                              </p1>}
+                />
+              </h2>
+            </div>
+            <div className='Card'>
+              <h1>PowerSchool</h1>
+              <img className='card-pic' src="/img/powerschool.jpg" alt='PowerSchool'/>
+              <h2>
+                < Slide title={<h1>PowerSchool</h1>}
+                        body={<p1><br/>QA work and automation testing. Worked with a
+                                team in charge of provisioning and syncing data between multiple databases. Experienced filtering and
+                                processing large quantities of data.
+                              </p1>}
+                />
+              </h2>
+            </div>
+            <h1>Skills</h1>
             <div className='Card'>
               <h1>Java</h1>
               <p>
