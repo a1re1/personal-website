@@ -277,6 +277,7 @@
   padding-top: 2%;
   padding-bottom: 5%;
   width: 100%;
+  min-height: 100vh;
   background-color: var(--complement-color);
 }
 
@@ -299,10 +300,16 @@
   margin-right: 5%;
 }
 
+.Light i{
+  color: var(--primary-color-darker);
+  padding-top: 25px;
+}
+
 .Dark{
   padding-top: 2%;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   width: 100%;
+  min-height: 100vh;
   background-color: var(--primary-color-darker);
 }
 
@@ -315,6 +322,21 @@
   margin-right: 5%;
   margin-top: 0%;
   margin-bottom: 1%;
+}
+
+.Dark i{
+  color: var(--complement-color);
+  padding-top: 25px;
+}
+
+.Contact{
+  padding-bottom:0;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.Contact i{
+  margin-bottom: 0;
 }
 
 embed{

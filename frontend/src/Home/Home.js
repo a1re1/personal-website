@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import Slide from '../SlideComponent/SlideComponent';
+import Mountains from '../MountainComponent/MountainComponent';
 
 const state = {
   media: [
@@ -33,9 +34,15 @@ const home = () => {
             <img className='circle-img Profile-pic' src="/img/profile.jpg" alt='Profile pic'/>
             <div className='desc'>
               <h1>About Me</h1>
-              <p>Hey, Im Tyler Whitehurst<br/>
-              I'm a Computer Science Major and I am interested in the ways we communicate.<br/>
+              <p>Hey, I'm Tyler Whitehurst<br/><br/>
+              I'm a Computer Science Major from Birmingham, AL. I've studied my undergraduate at RIT in Rochester, NY, and co-op'ed in Sacramento, CA, and Boston, MA. 
+              As you might be able to tell, I'm not afraid to travel for opportunities. I like boba tea, swimming, prepositions, and long walks on the beach after sunset when all of the 
+              hermit crabs have come out to the surface. Apart from that, I am really interested in the way people currently communicate, and the nuances and changes that are coming
+              in the age of machine learning.<br/>
               </p><br/>
+              <a href='/#Experience'>
+                <i className="material-icons md-72 animated bounce">expand_more</i>
+              </a>
             </div>
           </div>
         </div>
@@ -49,11 +56,11 @@ const home = () => {
               <img className='card-pic' src="/img/hubspot.png" alt='HubSpot'/>
               <h2>
                 < Slide title={<h1>HubSpot</h1>}
-                        body={<p1><br/>Experience on a back-end communications team.
+                        body={<div><br/>Experience on a back-end communications team.
                                 Built endpoints for integrations for popular
                                 messaging applications. Migrated data models between multiple databases. Closely worked with Bots
                                 team to develop resources for bot communication.
-                              </p1>}
+                              </div>}
                 />
               </h2>
             </div>
@@ -62,10 +69,10 @@ const home = () => {
               <img className='card-pic' src="/img/powerschool.jpg" alt='PowerSchool'/>
               <h2>
                 < Slide title={<h1>PowerSchool</h1>}
-                        body={<p1><br/>QA work and automation testing. Worked with a
+                        body={<div><br/>QA work and automation testing. Worked with a
                                 team in charge of provisioning and syncing data between multiple databases. Experienced filtering and
                                 processing large quantities of data.
-                              </p1>}
+                              </div>}
                 />
               </h2>
             </div>
@@ -134,8 +141,10 @@ const home = () => {
                 • Web.py, Psycopg Web Dev<br />
               </p>
             </div>
-            <a href='/#Portfolio'><h3>Read More</h3></a>
           </div>
+          <a href='/#Resume'>
+            <i className="material-icons md-72 animated bounce">expand_more</i>
+          </a>
         </div>
       </ScrollableAnchor>
       <ScrollableAnchor id='Resume'>
@@ -144,6 +153,9 @@ const home = () => {
             <h1>Resume</h1>
             <embed src="/resources/updated_resume.pdf#view=FitV" type='application/pdf' width="95%"/>
           </div>
+          <a href='/#Portfolio'>
+            <i className="material-icons md-72 animated bounce">expand_more</i>
+          </a>
         </div>
       </ScrollableAnchor>
       <ScrollableAnchor id='Portfolio'>
@@ -155,14 +167,14 @@ const home = () => {
               <img className='card-pic' src="/img/site.png" alt='Web-dev'/>
               <h2>
                 < Slide title={<h1>This Website</h1>}
-                        body={<p1>
+                        body={<div>
                                 <br/>The website you are currently visiting
                                 showcases some of my experiences with education and in
                                 developer roles. It shows off my design skills and technologies
                                 that I have worked with throughout my career.
                                 The website was built using Node.js
                                 as a back-end with a React.js front-end with CSS styling.
-                              </p1>}
+                              </div>}
                 />
               </h2>
             </div>
@@ -171,7 +183,7 @@ const home = () => {
               <img className='card-pic' src="/img/selenium.png" alt='Selenium'/>
               <h2>
                 < Slide title={<h1>Selenium Automation Testing</h1>}
-                        body={<p1>
+                        body={<div>
                                 <br/>At my PowerSchool I worked closely with QA to test
                                 new development features. These tasks strengthened my ability to create test
                                 cases and clearly define the scope of use ccases in order to
@@ -181,7 +193,7 @@ const home = () => {
                                 address edge cases. With this position I
                                 caught and debugged multiple issues before they reached
                                 production which helped prevent future problems for development engineers. 
-                              </p1>}
+                              </div>}
                 />
               </h2>
             </div>
@@ -190,7 +202,7 @@ const home = () => {
               <img className='card-pic' src="/img/db.png" alt='DB Project'/>
               <h2>
                 < Slide title={<h1>GitHub Stats</h1>}
-                        body={<p1>
+                        body={<div>
                                 <br/>About: <br/>
                                 This was an 8 week long Project with a group of 3 people
                                 (including myself) for my Principles of Database
@@ -221,7 +233,7 @@ const home = () => {
                                 of data. I also now have a cursory understanding of how
                                 indices can speed up query processesing when
                                 working with large quantities of data.
-                              </p1>}
+                              </div>}
                 />
               </h2>
             </div>
@@ -230,7 +242,7 @@ const home = () => {
               <img className='card-pic' src="/img/checkers.png" alt='Web checkers'/>
               <h2>
                 < Slide title={<h1>Web Checkers</h1>}
-                        body={<p1>
+                        body={<div>
                                 <br/>About: <br />
                                 This project took place over the course of a 14 week semester during a software engineering course.
                                 The was taken on by a team of four students (including myself) with the goal of creating a web based
@@ -248,7 +260,7 @@ const home = () => {
                                 for communication purposes and Trello in order to keep track of User Stories that needed to be
                                 implemented. Over the course of the semester, I was able to take part in team building activities in order
                                 to strengthen my ability to work with others.
-                              </p1>}
+                              </div>}
                 />
               </h2>
             </div>
@@ -257,13 +269,13 @@ const home = () => {
               <img className='card-pic' src="/img/fire.gif" alt='Wild Fire'/>
               <h2>
                 < Slide title={<h1>Wild Fire Simulator</h1>}
-                        body={<p1>
+                        body={<div>
                                 <br/>This will be expanded upon later. Unfortunately
                                 I cannot link to the source code as this was a project
                                 for my CS243: Mechanics of Programming class to understand
                                 the basics of compilers, memory management, and operating systems
                                 as well as learning C.<br/>
-                              </p1>}
+                              </div>}
                 />
               </h2>
             </div>
@@ -272,7 +284,7 @@ const home = () => {
               <img className='card-pic' src="/img/notes.png" alt='Notes repository'/>
               <h2>
                 < Slide title={<h1>Programming Notes</h1>}
-                        body={<p1>
+                        body={<div>
                                 <br/>This repo is a collection of notes that I have taken through out my career. 
                                 I strongly believe that taking in depth notes during development helps you 
                                 to reason through design choices and have a better understanding of why 
@@ -280,7 +292,7 @@ const home = () => {
                                 learned however due to confidentiality of most projects that I have worked on. 
                                 Check out the source here: <br/> <br/>
                                 <a href='https://github.com/a1re1/programming-notes'>Project</a>
-                              </p1>}
+                              </div>}
                 />
               </h2>
             </div>
@@ -289,7 +301,7 @@ const home = () => {
               <img className='card-pic' src="/img/fin.png" alt='p5.js game'/>
               <h2>
                 < Slide title={<h1>Fin the Fish</h1>}
-                        body={<p1>
+                        body={<div>
                                 <br/>
                                 <div className="row">
                                   <div className="column">
@@ -316,7 +328,7 @@ const home = () => {
                                     <a href='https://github.com/a1re1/FishFood'>Project</a>
                                   </div>
                                 </div>
-                              </p1>}
+                              </div>}
                 />
               </h2>
             </div>
@@ -325,7 +337,7 @@ const home = () => {
               <img className='card-pic' src="/img/mc-mod.png" alt='Minecraft Mod'/>
               <h2>
                 < Slide title={<h1>Rise of Angels Minecraft Mod</h1>}
-                        body={<p1>
+                        body={<div>
                                 <br/>About: <br />
                                 Rise of Angels is a minecraft mod focused on the balance
                                 between angels and demons. It is written in
@@ -334,11 +346,14 @@ const home = () => {
                                 building blocks as well as some basic world generation to
                                 the vanilla Minecraft 1.7.10 game. <br/> <br/>
                                 <a href='https://github.com/a1re1/Rise_of_Angels'>Project</a>
-                              </p1>}
+                              </div>}
                 />
               </h2>
             </div>
           </div>
+          <a href='/#Contact'>
+            <i className="material-icons md-72 animated bounce">expand_more</i>
+          </a>
         </div>
       </ScrollableAnchor>
       <ScrollableAnchor id='Contact'>
@@ -349,6 +364,10 @@ const home = () => {
             <p><i className='material-icons-dark'>email</i> : twwhitehurst@gmail.com</p>
             <p><i className='material-icons-dark'>phone</i> : (205)223-4175</p>
           </div>
+          <a href='/#Home'>
+            <i className="material-icons md-72 animated bounce">expand_less</i>
+          </a>
+          <Mountains/>
         </div>
       </ScrollableAnchor>
     </div>
