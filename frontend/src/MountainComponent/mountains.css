@@ -4,8 +4,9 @@ body {
   .wrap {
     width: 100vw;
     height: 55vh;
+    overflow: visible;
     position: relative;
-    overflow: hidden;
+    pointer-events: none;
     background-color: #fff;
   }
   .peak {
@@ -34,8 +35,8 @@ body {
     opacity: 0.5;
   }
   .cloud {
-    -webkit-animation: move-cloud 90s linear infinite;
-    animation: move-cloud 90s linear infinite;
+    -webkit-animation: move-cloud 45s linear infinite;
+    animation: move-cloud 45s linear infinite;
     font-size: 1.25em;
     position: absolute;
     height: 1em;
@@ -77,6 +78,42 @@ body {
   .cloud-list li:nth-child(6) {
     top: 67%;
     left: 205vw;
+    font-size: 0.75em;
+    z-index: 1;
+  }
+  .cloud-list li:nth-child(7) {
+    top: 62%;
+    left: 215vw;
+    font-size: 0.75em;
+    z-index: 2npm;
+  }
+  .cloud-list li:nth-child(8) {
+    top: 45%;
+    left: 222vw;
+    font-size: 0.75em;
+    z-index: 2;
+  }
+  .cloud-list li:nth-child(9) {
+    top: 25%;
+    left: 234vw;
+    font-size: 0.75em;
+    z-index: 1;
+  }
+  .cloud-list li:nth-child(10) {
+    top: 48%;
+    left: 248vw;
+    font-size: 0.75em;
+    z-index: 2;
+  }
+  .cloud-list li:nth-child(11) {
+    top: 67%;
+    left: 263vw;
+    font-size: 0.75em;
+    z-index: 2;
+  }
+  .cloud-list li:nth-child(12) {
+    top: 78%;
+    left: 275vw;
     font-size: 0.75em;
     z-index: 1;
   }
@@ -202,8 +239,8 @@ body {
       transform: translateX(0);
     }
     100% {
-      -webkit-transform: translateX(-200vw);
-      transform: translateX(-200vw);
+      -webkit-transform: translateX(-250vw);
+      transform: translateX(-250vw);
     }
   }
   

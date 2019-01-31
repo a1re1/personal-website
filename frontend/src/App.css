@@ -301,6 +301,7 @@
 }
 
 .Light i{
+  z-index: 100;
   color: var(--primary-color-darker);
   padding-top: 25px;
 }
@@ -325,6 +326,7 @@
 }
 
 .Dark i{
+  z-index: 100;
   color: var(--complement-color);
   padding-top: 25px;
 }
