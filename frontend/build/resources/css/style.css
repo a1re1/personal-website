@@ -1,0 +1,31 @@
+.wrap {
+  position: relative;
+  padding: 25px;
+  margin: auto;
+}
+
+.wrap a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.wrap h1 {
+  margin-bottom: 5px;
+  text-align: center;
+  font: 300 2.25em "Lato";
+  text-transform: uppercase;
+}
+.wrap h1 strong {
+  font-weight: 400;
+  color: #ea4c4c;
+}
+
+.wrap h2 {
+  margin-bottom: 80px;
+  text-align: center;
+  font: 300 0.7em "Lato";
+  text-transform: uppercase;
+}
+.wrap h2 strong {
+  font-weight: 400;
+}
