@@ -12,7 +12,6 @@
                         function(err) { console.error("Error signing in", err); });
             }
             function loadClient() {
-                gapi.client.setApiKey("AIzaSyBaPGV5CTgfO4Bx9I7lJbsBeo1aAwzAe");
                 return gapi.client.load("https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest")
                     .then(function() { console.log("GAPI client loaded for API"); },
                         function(err) { console.error("Error loading GAPI client for API", err); });
