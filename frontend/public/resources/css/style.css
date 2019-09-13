@@ -39,15 +39,19 @@ button:hover{
   background-color:var(--complement-color);
 }
 
-td {
-  background-color: var(--complement-color);
-  margin: 10px;
-  display:inline-grid;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  width: 350px;
-  height: 350px;
-  padding: 5px;
-  overflow: hidden;
+table {
+  margin: auto;
 }
 
 
+#assignment {
+  background-color: var(--complement-color);
+  display:inline-grid;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: 350px;
+  margin: auto; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  overflow: hidden;
+}

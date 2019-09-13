@@ -80,17 +80,18 @@
                 // Make sure the client is loaded and sign-in is complete before calling this method.
                 function execute() {
                     return gapi.client.calendar.events.list({
-                    "calendarId": "sf0n3mmqm9rbn2tmi9fm8bq2kg@group.calendar.google.com",
-                    "maxResults": 25
+                        "calendarId": "sf0n3mmqm9rbn2tmi9fm8bq2kg@group.calendar.google.com",
+                        "maxResults": 25,
+                        "orderBy": "startTime"
                     })
-                        .then(function(response) {
-                                var doc = document.getElementById("assignments");
-                                doc.innerHTML = "";
-                                var tab = render(response.result.items);
-                                console.log(tab);
-                                doc.appendChild(tab);
-                            },
-                            function(err) { console.error("Execute error", err); });
+                    .then(function(response) {
+                            var doc = document.getElementById("assignments");
+                            doc.innerHTML = "";
+                            var tab = render(response.result.items);
+                            console.log(tab);
+                            doc.appendChild(tab);
+                        },
+                        function(err) { console.error("Execute error", err); });
                 }
                 
                 gapi.load("client:auth2", function() {
