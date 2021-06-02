@@ -1,0 +1,32 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "my personal website to showcase my works and experiences",
+  "main": "server.js",
+  "repository": "personal-website/backend",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "tyler whitehurst (twwhitehurst@gmail.com)",
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "ajv": "^6.10.2",
+    "bootstrap": "^4.3.1",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "jquery": "^3.5.0",
+    "material-design-icons": "^3.0.1",
+    "popper.js": "^1.14.4",
+    "react": "^16.9.0",
+    "react-burger-menu": "^2.6.11",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.5",
+    "react-scrollable-anchor": "^0.6.1"
+  },
+  "devDependencies": {}
+}
