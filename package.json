@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "1.0.0",
   "description": "my personal website to showcase my works and experiences",
-  "main": "server.js",
+  "main": "App.js",
   "repository": "personal-website/backend",
   "scripts": {
     "start": "react-scripts start",
@@ -24,7 +24,6 @@
     "react-burger-menu": "^2.6.11",
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.9.0",
-    "react-router-dom": "^4.3.1",
     "react-scripts": "^1.1.5",
     "react-scrollable-anchor": "^0.6.1"
   },

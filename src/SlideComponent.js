@@ -1,7 +1,7 @@
-import React from 'react';
-import Slide from '@material-ui/core/Slide';
-import Button from '@material-ui/core/Button';
-import ClickAwayListener from '@material-ui/core/ClickAwayListener';
+import React from "react";
+import Slide from "@material-ui/core/Slide";
+import Button from "@material-ui/core/Button";
+import ClickAwayListener from "@material-ui/core/ClickAwayListener";
 
 class SimpleSlide extends React.Component {
   state = {
@@ -9,7 +9,7 @@ class SimpleSlide extends React.Component {
   };
 
   handleClick = () => {
-    this.setState(state => ({
+    this.setState((state) => ({
       open: !state.open,
     }));
   };
@@ -27,13 +27,13 @@ class SimpleSlide extends React.Component {
       <ClickAwayListener onClickAway={this.handleClickAway}>
         <div>
           <Button onClick={this.handleClick}>Contributions</Button>
-            {open ? (
-              <Slide direction="right" in={open} mountOnEnter unmountOnExit>
-                <div className='paper'>
-                  {this.props.title}
-                  {this.props.body}
-                </div>
-              </Slide>
+          {open ? (
+            <Slide direction="right" in={open} mountOnEnter unmountOnExit>
+              <div className="paper">
+                {this.props.title}
+                {this.props.body}
+              </div>
+            </Slide>
           ) : null}
         </div>
       </ClickAwayListener>
