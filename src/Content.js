@@ -522,8 +522,7 @@ const content = () => {
           <div className="Content">
             <h1>Contact Me</h1>
             <p>
-              <i className="material-icons-dark">location_on</i> : Rochester, NY
-              (Open to Relocation)
+              <i className="material-icons-dark">location_on</i> : Boston, MA
             </p>
             <p>
               <i className="material-icons-dark">email</i> :
