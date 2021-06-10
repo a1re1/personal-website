@@ -24,6 +24,13 @@ const state = {
   ],
 };
 
+const script = document.createElement("script");
+
+script.src="//js.hs-scripts.com/6911748.js";
+script.async = true;
+
+document.body.appendChild(script);
+
 const content = () => {
   return (
     <div>
