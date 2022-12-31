@@ -24,7 +24,7 @@
     "react-burger-menu": "^2.6.11",
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.9.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^5.0.1",
     "react-scrollable-anchor": "^0.6.1"
   },
   "devDependencies": {}
