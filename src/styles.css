@@ -180,7 +180,6 @@ body {
 
 .Cover {
   background-color: var(--primary-color);
-  background-image: url("/img/decay.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;

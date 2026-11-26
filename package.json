@@ -4,6 +4,7 @@
   "description": "my personal website to showcase my works and experiences",
   "main": "App.js",
   "repository": "personal-website",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
