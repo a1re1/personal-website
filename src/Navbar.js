@@ -2,12 +2,12 @@ import { slide as Menu } from "react-burger-menu";
 import React from "react";
 
 const pages = [
-  { name: "Home", uri: "/#Home" },
-  { name: "About Me", uri: "/#About" },
-  { name: "Experience", uri: "/#Experience" },
-  { name: "Resume", uri: "/#Resume" },
-  { name: "Portfolio", uri: "/#Portfolio" },
-  { name: "Contact Me", uri: "/#Contact" },
+  { name: "Home", uri: "#Home" },
+  { name: "About Me", uri: "#About" },
+  { name: "Experience", uri: "#Experience" },
+  { name: "Resume", uri: "#Resume" },
+  { name: "Portfolio", uri: "#Portfolio" },
+  { name: "Contact Me", uri: "#Contact" },
   { name: "Blog", uri: "https://medium.tylerwhitehurst.com/" },
 ];
 

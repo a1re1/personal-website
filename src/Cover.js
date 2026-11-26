@@ -6,7 +6,7 @@ const cover = (props) => {
     <li key={page.name.toString()}>
       <a href={page.uri}>
         <img
-          src={`${window.location.origin}${page.icon}`}
+          src={page.icon}
           alt={page.name}
           width="48px"
           height="48px"
@@ -15,7 +15,12 @@ const cover = (props) => {
     </li>
   ));
   return (
-    <div className="Cover">
+    <div
+      className="Cover"
+      style={{
+        backgroundImage: `url(${process.env.PUBLIC_URL}/img/decay.jpg)`,
+      }}
+    >
       <div className="media">{listItems}</div>
       <br />
       <div className="heading">
@@ -31,7 +36,7 @@ const cover = (props) => {
         </div>
       </div>
       <div className="more">
-        <a href="/#About">
+        <a href="#About">
           <i className="material-icons md-72 animated bounce">expand_more</i>
         </a>
       </div>

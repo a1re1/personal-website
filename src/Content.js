@@ -9,17 +9,17 @@ const state = {
     {
       name: "linkedIn",
       uri: "https://www.linkedin.com/in/tyler-whitehurst-354051128",
-      icon: "/icons/linkd.png",
+      icon: `${process.env.PUBLIC_URL}/icons/linkd.png`,
     },
     {
       name: "facebook",
       uri: "https://www.github.com/a1re1/",
-      icon: "/icons/hub.png",
+      icon: `${process.env.PUBLIC_URL}/icons/hub.png`,
     },
     {
       name: "instagram",
       uri: "https://www.instagram.com/twhitehurst_/",
-      icon: "/icons/ig.png",
+      icon: `${process.env.PUBLIC_URL}/icons/ig.png`,
     },
   ],
 };
@@ -43,7 +43,7 @@ const content = () => {
           <div className="About Content">
             <img
               className="Profile-pic"
-              src="/img/constitution-museum.jpg"
+              src={`${process.env.PUBLIC_URL}/img/constitution-museum.jpg`}
               alt="Profile pic"
             />
             <div className="desc">
@@ -66,7 +66,7 @@ const content = () => {
                 conversations product.
               </p>
               <br />
-              <a href="/#Experience">
+              <a href="#Experience">
                 <i className="material-icons md-72 animated bounce">
                   expand_more
                 </i>
@@ -81,7 +81,7 @@ const content = () => {
             <h1>Experience</h1>
             <div className="Card">
               <h1>HubSpot</h1>
-              <img className="card-pic" src="/img/hubspot.png" alt="HubSpot" />
+              <img className="card-pic" src={`${process.env.PUBLIC_URL}/img/hubspot.png`} alt="HubSpot" />
               <h2>
                 <Slide
                   title={<h1>HubSpot</h1>}
@@ -102,7 +102,7 @@ const content = () => {
               <h1>PowerSchool</h1>
               <img
                 className="card-pic"
-                src="/img/powerschool.jpg"
+                src={`${process.env.PUBLIC_URL}/img/powerschool.jpg`}
                 alt="PowerSchool"
               />
               <h2>
@@ -220,7 +220,7 @@ const content = () => {
               </p>
             </div>
           </div>
-          <a href="/#Resume">
+          <a href="#Resume">
             <i className="material-icons md-72 animated bounce">expand_more</i>
           </a>
         </div>
@@ -230,12 +230,12 @@ const content = () => {
           <div className="Content">
             <h1>Resume</h1>
             <embed
-              src="/resources/updated_resume.pdf#view=FitV"
+              src={`${process.env.PUBLIC_URL}/resources/updated_resume.pdf#view=FitV`}
               type="application/pdf"
               width="95%"
             />
           </div>
-          <a href="/#Portfolio">
+          <a href="#Portfolio">
             <i className="material-icons md-72 animated bounce">expand_more</i>
           </a>
         </div>
@@ -246,7 +246,7 @@ const content = () => {
             <h1>Portfolio</h1>
             <div className="Card">
               <h1>This Site</h1>
-              <img className="card-pic" src="/img/site.png" alt="Web-dev" />
+              <img className="card-pic" src={`${process.env.PUBLIC_URL}/img/site.png`} alt="Web-dev" />
               <h2>
                 <Slide
                   title={<h1>This Website</h1>}
@@ -268,7 +268,7 @@ const content = () => {
               <h1>Selenium Automation Testing</h1>
               <img
                 className="card-pic"
-                src="/img/selenium.png"
+                src={`${process.env.PUBLIC_URL}/img/selenium.png`}
                 alt="Selenium"
               />
               <h2>
@@ -294,7 +294,7 @@ const content = () => {
             </div>
             <div className="Card">
               <h1>GitHub Stats</h1>
-              <img className="card-pic" src="/img/db.png" alt="DB Project" />
+              <img className="card-pic" src={`${process.env.PUBLIC_URL}/img/db.png`} alt="DB Project" />
               <h2>
                 <Slide
                   title={<h1>GitHub Stats</h1>}
@@ -341,7 +341,7 @@ const content = () => {
               <h1>Web Checkers</h1>
               <img
                 className="card-pic"
-                src="/img/checkers.png"
+                src={`${process.env.PUBLIC_URL}/img/checkers.png`}
                 alt="Web checkers"
               />
               <h2>
@@ -384,7 +384,7 @@ const content = () => {
             </div>
             <div className="Card">
               <h1>Wild Fire Simulator</h1>
-              <img className="card-pic" src="/img/fire.gif" alt="Wild Fire" />
+              <img className="card-pic" src={`${process.env.PUBLIC_URL}/img/fire.gif`} alt="Wild Fire" />
               <h2>
                 <Slide
                   title={<h1>Wild Fire Simulator</h1>}
@@ -406,7 +406,7 @@ const content = () => {
               <h1>Programming Notes</h1>
               <img
                 className="card-pic"
-                src="/img/notes.png"
+                src={`${process.env.PUBLIC_URL}/img/notes.png`}
                 alt="Notes repository"
               />
               <h2>
@@ -433,7 +433,7 @@ const content = () => {
             </div>
             <div className="Card">
               <h1>Fin the Fish</h1>
-              <img className="card-pic" src="/img/fin.png" alt="p5.js game" />
+              <img className="card-pic" src={`${process.env.PUBLIC_URL}/img/fin.png`} alt="p5.js game" />
               <h2>
                 <Slide
                   title={<h1>Fin the Fish</h1>}
@@ -494,7 +494,7 @@ const content = () => {
               <h1>Rise of Angels Minecraft Mod</h1>
               <img
                 className="card-pic"
-                src="/img/mc-mod.png"
+                src={`${process.env.PUBLIC_URL}/img/mc-mod.png`}
                 alt="Minecraft Mod"
               />
               <h2>
@@ -519,7 +519,7 @@ const content = () => {
               </h2>
             </div>
           </div>
-          <a href="/#Contact">
+          <a href="#Contact">
             <i className="material-icons md-72 animated bounce">expand_more</i>
           </a>
         </div>
@@ -539,7 +539,7 @@ const content = () => {
               <i className="material-icons-dark">phone</i> : (205)223-4175
             </p>
           </div>
-          <a href="/#Home">
+          <a href="#Home">
             <i className="material-icons md-72 animated bounce">expand_less</i>
           </a>
           <Mountains />

@@ -89,7 +89,8 @@ typings/
 /coverage
 
 # production
-# /build
+/build
+/docs
 
 # misc
 .DS_Store
